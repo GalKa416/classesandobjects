@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        System.out.println("Hello  world!");
     Author AuthorBookBookThreeMusketeers = new Author("Александр","Дюма");
    Author authorBookThickAngThin = new Author("Антон","Чехов");
    Book threeMusketeers = new Book("Три мушкетера", 1844, AuthorBookBookThreeMusketeers);
