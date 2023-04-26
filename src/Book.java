@@ -18,6 +18,8 @@ public class Book {
     public int getPublicationDateBooK() {
         return this.publicationDateBook;
     }
-
+    public void setPublicationDateBook1 (int publicationDateBook) {
+    this.publicationDateBook = publicationDateBook;
+    }
 }
 

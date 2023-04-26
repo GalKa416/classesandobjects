@@ -13,7 +13,7 @@ public class Main {
         System.out.println("thickAngThin.getAuthorBook().getLastName() = " + thickAngThin.getAuthorBook().getLastName());
         System.out.println("thickAngThin.getNameBook() = " + thickAngThin.getNameBook());
         System.out.println("thickAngThin.getPublicationDateBooK() = " + thickAngThin.getPublicationDateBooK());
-
+thickAngThin.setPublicationDateBook1(1883);
     }
 
 }
