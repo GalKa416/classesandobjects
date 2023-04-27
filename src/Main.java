@@ -1,9 +1,9 @@
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello  world!");
-    Author AuthorBookBookThreeMusketeers = new Author("Александр","Дюма");
+    Author authorBookBookThreeMusketeers = new Author("Александр","Дюма");
    Author authorBookThickAngThin = new Author("Антон","Чехов");
-   Book threeMusketeers = new Book("Три мушкетера", 1844, AuthorBookBookThreeMusketeers);
+   Book threeMusketeers = new Book("Три мушкетера", 1844, authorBookBookThreeMusketeers);
    Book thickAngThin = new Book("Толстый и тонкий", 1883 , authorBookThickAngThin);
 
         System.out.println("threeMusketeers.getAuthorBook().getFirstName() = " + threeMusketeers.getAuthorBook().getFirstName());
@@ -19,6 +19,14 @@ public class Main {
 
         System.out.println(thickAngThin);
         System.out.println(threeMusketeers);
+        System.out.println("authorBookBookThreeMusketeers.equals(authorBookThickAngThin) = " + authorBookBookThreeMusketeers.equals(authorBookThickAngThin));
+   Author authorBookIonych = new Author("Антон" , "Чехов");
+        System.out.println("authorBookThickAngThin.equals(authorBookIonych) = " + authorBookThickAngThin.equals(authorBookIonych));
+        System.out.println("authorBookThickAngThin.hashCode() = " + authorBookThickAngThin.hashCode());
+        System.out.println("authorBookThickAngThin.hashCode() = " + authorBookThickAngThin.hashCode());
+        System.out.println("threeMusketeers.hashCode() = " + threeMusketeers.hashCode());
+        System.out.println("thickAngThin.hashCode() = " + thickAngThin.hashCode());
     }
+
 
 }
